@@ -43,7 +43,7 @@ onUpdated(() => {
   <body @keydown.enter="addItem">
     <div class="container text-bg-dark mt-5 p-4 rounded-4">
       <header class="d-flex gap-4">
-        <input type="text" class="form-control" v-model="input" />
+        <input type="text" class="form-control" v-model="input" placeholder="Tarefa" />
         <button class="btn btn-light" @click="addItem">Adicionar</button>
       </header>
       <hr class="my-4" />
